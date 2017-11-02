@@ -1,0 +1,92 @@
+body,div,ul,li,p,input,button{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none}
+a:hover{text-decoration: underline;}
+.sprite{background:  url(../images/sprite.png) no-repeat;float: left;}
+
+body{background: url(../images/bodybg.png) repeat-x;}
+.cnyz{width:980px;margin: 0 auto;overflow: hidden;position: relative;}
+.cnyz .header img{margin-left: -310px;}
+
+.cnyz .menu{width:980px;height: 41px;background: url(../images/menu.png) no-repeat;}
+.cnyz .menu ul{}
+.cnyz .menu ul li{width: 108px;float: left;text-align: center;height: 41px;line-height: 41px;}
+.cnyz .menu ul li a{color: #fff;}
+.cnyz .menu ul li a:hover{color: red;background: url(../images/hoverbg.png) no-repeat;display: block;width: 119px;height: 47px;position: absolute;top:98px;}
+
+.cnyz .showpic{position:relative;overflow: hidden;height:354px; }
+.cnyz .showpic ul{}
+.cnyz .showpic ul li{position: absolute;top: 0;left: 0;}
+.cnyz .showpic ul .current{z-index: 1}
+.cnyz .showpic .leftbutton{width:55px;height:55px;position: absolute;top:164px;background-position: 0 -42px;z-index: 2}
+.cnyz .showpic .rightbutton{width:55px;height:55px;position: absolute;top:164px;left:928px;background-position: -55px -42px;z-index: 2}
+
+.cnyz .login{background: #f2f2f2;height: 57px;line-height: 57px;margin-top: 1px;position: relative;}
+.cnyz .login .finger{width: 25px;height: 25px;float:left;margin: 15px 12px 0 14px;}
+.cnyz .login span{font-size: 18px;color: #606060;font-weight: bold;float:left;}
+.cnyz .login .user{border:none;height: 24px;width: 141px;background: url(../images/userbg.png) no-repeat;}
+.cnyz .login .password{padding-left:29px;border:none;height: 24px;width: 112px;background: url(../images/passwordbg.png) no-repeat;}
+.cnyz .login button{margin-left:10px;width:45px;height:24px;background: url(../images/loginbg.png) no-repeat;border: none;font-size: 13px;color: #fff;}
+.cnyz .login a{font-size: 14px;color: #4a4a4a;margin-left: 14px;}
+.cnyz .login .share{position: absolute;width: 219px;top:21px;right:-199px; }
+.cnyz .login .share .addition{width:16px ;height: 16px;background-position: -37px 0;}
+.cnyz .login .share span{font-size: 12px;color: #178c17;float: left;display: block;height: 16px;line-height: 16px;margin-left: 3px;}
+.cnyz .login .share .share1{width:16px ;height: 16px;background-position: -53px 0;margin-left: 4px;}
+.cnyz .login .share .share2{width:16px ;height: 16px;background-position: -69px 0;margin-left: 5px;}
+.cnyz .login .share .share3{width:16px ;height: 16px;background-position: -85px 0;margin-left: 5px;}
+.cnyz .login .share .share4{width:16px ;height: 16px;background-position: -101px 0;margin-left: 5px;}
+.cnyz .login .share .share5{width:16px ;height: 16px;background-position: -117px 0;margin-left: 5px;}
+.cnyz .login .share .number{width:42px ;height: 16px;background-position: -133px 0;margin-left: 2px;font-size: 12px;color: #454545;text-align: center;height: 16px;line-height: 16px;}
+
+.cnyz .information{margin-top: 1px;}
+.cnyz .information .company{float: left;width: 302px;}
+.cnyz .information .company  img{float: left;}
+.cnyz .information .company .companypic{margin-right: 16px}
+.cnyz .information .company p{display: block;font-size: 12px;height: 25px;line-height:25px;text-indent: 2em;margin-right: 7px;text-align: justify;}
+.cnyz .information .news{float: left;width: 406px;}
+.cnyz .information .news img{float: left;}
+.cnyz .information .news .newspic{margin:0 13px 23px 14px;}
+.cnyz .information .news p{font-size: 12px;color: #50b540;font-weight: bold;display: block;margin-bottom: 5px}
+.cnyz .information .news span{font-size: 12px;color: #a8a8a8;height: 24px;line-height: 24px;}
+.cnyz .information .news a{font-size: 12px;color: #50b540;}
+.cnyz .information .news ul{margin-left:28px;clear: both;font-size: 12px;}
+.cnyz .information .news ul li{height: 27px;line-height: 27px;}
+.cnyz .information .news ul li .point{margin-top:9px;background-position: -175px 0;width: 14px;height: 12px;float: left;}
+.cnyz .information .news ul li a{font-size: 12px;color: #6c6c6c;}
+.cnyz .information .news ul li span{float: right;}
+.cnyz .information .contact{float: left;width: 272px;}
+.cnyz .information .contact ul{margin-left: 18px;}
+.cnyz .information .contact ul li{font-size: 12px;color: #959595;height: 35px;}
+.cnyz .information .contact ul li .address{width:23px ;height: 16px;background-position: 0 -25px;float: left;}
+.cnyz .information .contact ul li .post{width:24px ;height: 13px;background-position: -25px -16px;float: left;}
+.cnyz .information .contact ul li .phone{width:24px ;height: 14px;background-position: -49px -16px;float: left;}
+.cnyz .information .contact ul li .fax{width:24px ;height: 16px;background-position: -73px -16px;float: left;}
+.cnyz .information .contact ul li .email{width:24px ;height: 12px;background-position: -97px -16px;float: left;}
+
+.cnyz .exhibition{float: left;position: relative;height: 229px;overflow: hidden}
+.cnyz .exhibition ul{width: 2000px;margin-left: -10px;position:absolute;left:0;}
+.cnyz .exhibition ul li{width: 175px;text-align: center;float: left;margin-left: 20px;}
+.cnyz .exhibition ul li img{margin-bottom: 5px;}
+.cnyz .exhibition ul li span{color: #6c6c6c;font-size: 12px;}
+.cnyz .exhibition .prev{background-position: 0 -100px;width: 25px;height: 25px;position: absolute;left: 910px;top: 20px;z-index: 5;}
+.cnyz .exhibition .next{background-position: -26px -100px;width: 25px;height: 25px;position: absolute;left: 940px;top: 20px;z-index: 5;}
+
+.cnyz .bottom{text-align:center;color:white;line-height:30px;overflow:hidden;background: url("../images/bottombg.png") no-repeat;width: 970px;height: 90px;margin-top: 54px;float: left}
+.cnyz .bottom pre a{color: white;}
+
+.model_window{width: 100%;height: 100%;position: fixed;top: 0;left: 0;display: none;z-index: 99;}
+.model_window .shelter{width: 100%;height: 100%;background: #000000;opacity: 0.5;filter: opacity(50);position: fixed;top: 0;left: 0;}
+.model_window .dialog_login{position: absolute;left: 50%;top:50%;width: 230px;height: 100px;background: #f3f3f3;opacity: 1;margin-top: -125px;margin-left: -140px;}
+.model_window .dialog_login .head{height: 20px;background: #999999;padding-left: 10px;}
+.model_window .dialog_login .head p{font-size: 12px;line-height: 20px;}
+.model_window .dialog_login .head button{border:none;float: right;}
+.model_window .dialog_login p{float:left;color: black;}
+.model_window .dialog_login p em{display: inline-block;width: 1em;}
+.model_window .dialog_login input{}
+
+
+
+
+
+
+
